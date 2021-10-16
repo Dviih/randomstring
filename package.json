@@ -1,0 +1,17 @@
+{
+  "name": "randomstring",
+  "version": "0.0.1",
+  "description": "Generate random strings in NodeJS",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dviih/randomstring.git"
+  },
+  "author": "Dviih",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Dviih/randomstring/issues"
+  },
+  "homepage": "https://github.com/Dviih/randomstring#readme"
+}
