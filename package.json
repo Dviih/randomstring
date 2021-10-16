@@ -1,5 +1,5 @@
 {
-  "name": "randomstring",
+  "name": "@dviih/randomstring",
   "version": "0.0.1",
   "description": "Generate random strings in NodeJS",
   "main": "index.js",
