@@ -13,5 +13,6 @@
   "bugs": {
     "url": "https://github.com/Dviih/randomstring/issues"
   },
-  "homepage": "https://github.com/Dviih/randomstring#readme"
+  "homepage": "https://github.com/Dviih/randomstring#readme",
+  "type": "module"
 }
