@@ -40,3 +40,8 @@ void generator(const v8::FunctionCallbackInfo<v8::Value>& args) {
 	args.GetReturnValue().Set(v8::String::NewFromUtf8(isolate, nativeGenerator(size, str.operator*(), str.length())).ToLocalChecked());
 }
 
+void init(v8::Local<v8::Object> exports, v8::Local<v8::Object> module) {
+	NODE_SET_METHOD(exports, "generate", generator);
+}
+
+NODE_MODULE(NODE_GYP_MODULE_NAME, init);
