@@ -1,24 +1,14 @@
 # Random String
-- This is a simple thing for generate random strings in NodeJS
-
-## Four modes:
-- Basic (Basic string on the range of A-Za-z0-9)
-- Medium (Basic with few more things)
-- Advanced (You mean random?)
-- Custom (Require charset)
+### Generate random strings in Node.js can be slow, this project aims in the speed so, we have a fast C++ backend to generate it for you.
 
 ## How to use:
+- We provide two standard charsets, the Standard which is [az-AZ-09] and the Extended including the Standard plus some extra symbols.
+
 ```
 // ECMAScript
-import randomString from "@dviih/randomstring";
-// CommonJS
-const randomString = require("@dviih/randomstring");
+import RandomString from "@dviih/randomstring";
 
-// Usage
-new randomString({length: <length>}).<mode>();
-
-// Usage (Custom)
-new randomString({length: <length>, charset: "<charset>"}).custom();
+console.log(RandomString.generate(2_500_000, RandomString.Charset.Standard));
 ```
 
-Made by @Dviih
+#### Made by @Dviih
