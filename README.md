@@ -5,7 +5,6 @@
 - We provide two standard charsets, the Standard which is [az-AZ-09] and the Extended including the Standard plus some extra symbols.
 
 ```
-// ECMAScript
 import RandomString from "@dviih/randomstring";
 
 console.log(RandomString.generate(2_500_000, RandomString.Charset.Standard));
